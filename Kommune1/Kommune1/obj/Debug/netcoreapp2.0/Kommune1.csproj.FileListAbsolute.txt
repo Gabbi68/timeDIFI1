@@ -1,0 +1,12 @@
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\bin\Debug\netcoreapp2.0\Kommune1.deps.json
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\bin\Debug\netcoreapp2.0\Kommune1.runtimeconfig.json
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\bin\Debug\netcoreapp2.0\Kommune1.runtimeconfig.dev.json
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\bin\Debug\netcoreapp2.0\Kommune1.dll
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\bin\Debug\netcoreapp2.0\Kommune1.pdb
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\obj\Debug\netcoreapp2.0\Kommune1.csprojResolveAssemblyReference.cache
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\obj\Debug\netcoreapp2.0\Kommune1.csproj.CoreCompileInputs.cache
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\obj\Debug\netcoreapp2.0\Kommune1.AssemblyInfoInputs.cache
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\obj\Debug\netcoreapp2.0\Kommune1.AssemblyInfo.cs
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\obj\Debug\netcoreapp2.0\Kommune1.dll
+C:\Users\Martin Gabrielsen\source\repos\Kommune1\Kommune1\obj\Debug\netcoreapp2.0\Kommune1.pdb

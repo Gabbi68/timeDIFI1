@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "About";
+    
+}
+
+
+
+<h2>@ViewData["Title"]</h2>
+
+
+
+
+
+<h1>Her kan du Søke om barnhage plass i Time kommune</h1>
+
+
+
+<div class="container">
+    <form class="form-horizontal" id="form_members" role="form" action="">
+
+        <legend>Person</legend>
+        <div class="form-group">
+            <label for="firstname" class="col-sm-2">Fornavn</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Fornavn">
+            </div>
+            <label for="lastname" class="col-sm-2">Etternavn</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Etternavn">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="gender" class="col-sm-2">Kjønn</label>
+            <div class="col-sm-4">
+                <label class="radio-inline">
+                    <input type="radio" name="gender" id="male" value="male"> Mann
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="gender" id="female" value="female"> Kvinne
+                </label>
+            </div>
+            <label for="dob" class="col-sm-2">Fødselsdato</label>
+            <div class="col-sm-4">
+                <input type="date" class="form-control" name="dob" id="dob" placeholder="dd/mm/yyyy">
+            </div>
+        </div>
+        <legend>Address</legend>
+        <div class="form-group">
+            <label for="address" class="col-sm-2">Bosteds addresse</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="address" id="address" placeholder="Adresse">
+            </div>
+            <label for="city" class="col-sm-2">By</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" list="cities" name="city" id="city" placeholder="By">
+                <datalist id="cities"></datalist>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="zipcode" class="col-sm-2">Postnummer</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="zipcode" id="zipcode" placeholder="Postnummer">
+            </div>
+            <label for="region" class="col-sm-2">Fylke</label>
+            <div class="col-sm-4">
+                <select class="form-control" name="region" id="region">
+                    <option>Select a Region</option>
+                    <option>Rogaland</option>
+                    <option>Trøndelag</option>
+                    <option>Oslo</option>
+                    <option>Vestlandet</option>
+                </select>
+            </div>
+        </div>
+        <legend>Kontaktinformasjon</legend>
+        <div class="form-group">
+            <label for="phone" class="col-sm-2">Mobilnummer</label>
+            <div class="col-sm-4">
+                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Mobil">
+            </div>
+            <label for="email" class="col-sm-2">Email</label>
+            <div class="col-sm-4">
+                <input type="email" class="form-control" name="email" id="email" placeholder=@User.Identity.Name disabled>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-warning" name="submit" id="submit">Send</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
